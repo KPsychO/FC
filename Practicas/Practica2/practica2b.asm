@@ -1,11 +1,3 @@
-/*
- * source.asm
- *
- *  Created on: Feb 25, 2018
- *      Author: DarkN
- */
-
-
 .global start
 .EQU N, 8
 
