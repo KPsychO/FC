@@ -1,11 +1,3 @@
-/*
- * source.asm
- *
- *  Created on: Feb 18, 2018
- *      Author: DarkN
- */
-
-
 .global start
 .data
 A: .word 0x09
