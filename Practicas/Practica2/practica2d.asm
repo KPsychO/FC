@@ -1,10 +1,3 @@
-/*
- * sourced.asm
- *
- *  Created on: Mar 20, 2018
- *      Author: DarkN
- */
-
 .global start
 .EQU N, 4
 
