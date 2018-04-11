@@ -1,17 +1,9 @@
-/*
- * source.asm
- *
- *  Created on: Feb 21, 2018
- *      Author: DarkN
- */
-
-
 .global start
 .data
 
 D: .word -23			// Dividendo
 d: .word 5				// divisor
-inv: .word 0			// variable inversión
+inv: .word 0			// variable inversiÃ³n
 
 .bss
 
