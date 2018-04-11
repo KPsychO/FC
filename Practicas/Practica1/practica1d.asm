@@ -1,10 +1,3 @@
-/*
- * Practicad.asm
- *
- *  Created on: Mar 13, 2018
- *      Author: DarkN
- */
-
 .global start
 .data
 A: .word 9
