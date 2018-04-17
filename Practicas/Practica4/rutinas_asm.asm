@@ -46,14 +46,18 @@ FOR:	CMP R4, R5
 		ADD R11, R11, #1
 		LDRB R10, [R6, R11]
 
-		MOV R12, #PENE
-/*		MOV R0, R8
+//Para obtener el negativo de la imagen, comentar las 4 siguientes lineas y descomentar el resto de la seccion:
+###################################################
+
+		MOV R0, R8
 		MOV R1, R9
 		MOV R2, R10
-*/
-		SUB R0, R12, R8
-		SUB R1, R12, R9
-		SUB R2, R12, R10
+//		MOV R12, #PENE
+//		SUB R0, R12, R8
+//		SUB R1, R12, R9
+//		SUB R2, R12, R10
+
+###################################################
 
 		BL rgb2gray
 
